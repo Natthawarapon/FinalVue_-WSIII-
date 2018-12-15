@@ -3,9 +3,12 @@
   <nav class="navbar navbar-expand navbar-dark bg-dark">
       <div class="nav navbar-nav">
           <router-link to="/" class="nav-item nav-link active">Home</router-link> |
-          <router-link to="/about" class="nav-item nav-link">About</router-link> |
-          <router-link to="/products" class="nav-item nav-link">Products</router-link> |
-          <router-link to="/users" class="nav-item nav-link">Users</router-link>
+         
+          
+          <router-link to="/categories" class="nav-item nav-link">Categories</router-link>|
+        
+
+          <!-- <router-link to="/categories" class="categories">Users</router-link> -->
       </div>
   </nav>  
     <router-view/>
